@@ -1,0 +1,31 @@
+---
+abstract: 'YAML dump for JOM nodes'
+author:
+  - 'Toby Inkster <tobyink@cpan.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0.61
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.95'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: JSON-JOM-Plugins-YAML
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Carp: 0
+  JSON::JOM: 0.002
+  YAML::Any: 0
+  common::sense: 0
+resources:
+  bugtracker: http://rt.cpan.org/Dist/Display.html?Queue=JSON-JOM-Plugins-YAML
+  homepage: http://search.cpan.org/dist/JSON-JOM-Plugins-YAML/
+  license: http://dev.perl.org/licenses/
+  repository: http://goddamn.co.uk/viewvc/perlmods/JSON-JOM-Plugins-YAML/
+version: 0.001

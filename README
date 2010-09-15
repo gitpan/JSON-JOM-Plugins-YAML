@@ -1,0 +1,23 @@
+NAME
+    JSON::JOM::Plugins::YAML - YAML dump for JOM nodes
+
+DESCRIPTION
+    This JOM plugin adds the following method to JOM objects and arrays:
+
+    *   "to_yaml" - dumps the object as a YAML string.
+
+BUGS
+    Please report any bugs to <http://rt.cpan.org/>.
+
+SEE ALSO
+    JSON::JOM, JSON::JOM::Plugins, YAML::Any.
+
+AUTHOR
+    Toby Inkster <tobyink@cpan.org>.
+
+COPYRIGHT
+    Copyright 2010 Toby Inkster
+
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
+
